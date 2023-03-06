@@ -4,7 +4,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: ;
 }
+
+body {
+    background-color: #f6f6f6;
+  }
 
 .container{
     max-width: 80vw;
@@ -40,13 +45,202 @@
 }
 
 .home-image{
-    
-    //filter: drop-shadow(5px 5px 10px #000);
+    height: 500px;
+    width: 500px;
+    filter: drop-shadow(5px 5px 10px #000);
 }
 
 .primary-heading {
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: clamp(1.5rem, 4vw, 3.5rem);
     color: black;
     /* line-height: 5rem; */
-    max-width: 600px;
+    max-width: 500px;
+}
+
+.primary-button {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
+    padding: 0.9rem 1.75rem;
+    background-color: #FF3800;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .primary-button:hover {
+    background-color: #d53209;
+  }
+
+.secondary-button {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
+    padding: 1rem 2.5rem;
+    background-color: #FF3800;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .secondary-button svg {
+    margin-left: 0.75rem;
+    font-size: 1.5rem;
+  }
+  .secondary-button:hover {
+    background-color: #d53209;
+  }
+
+  .about-section-container {
+    margin-top: 7rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about-section-image-container {
+    flex: 0.9;
+    margin-right: 1rem;
+  }
+  .about-section-text-container {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .primary-subheading {
+    font-weight: 700;
+    color: #FF3800;
+    font-size: 1.15rem;
+  }
+  .about-buttons-container {
+    margin-top: 2rem;
+    display: flex;
+  }
+
+.about-image{
+    
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+.work-section-wrapper {
+    margin-top: 5rem;
+  }
+  .work-section-top p {
+    text-align: center;
+    max-width: 600px !important;
+  }
+  .work-section-top h1 {
+    max-width: 700px !important;
+  }
+  .work-section-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .work-section-info {
+    width: 290px;
+    min-height: 350px;
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    color: #505050;
+    margin: 1rem 2rem;
+  }
+  .work-section-info h2 {
+    margin: 1rem 0rem;
+  }
+  .work-section-bottom {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .work-section-info p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .primary-text {
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .testimonial-section-bottom {
+    margin-top: 2rem;
+    background-color: white;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 750px;
+    border-radius: 2rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .testimonial-section-bottom {
+    margin: 2rem auto;
+  }
+  .testimonial-section-bottom p {
+    font-weight: 700;
+    color: #515151;
+    max-width: 500px;
+    font-size: 1.1rem;
+    margin: 2rem 0rem;
+  }
+  .testimonials-stars-container svg {
+    margin: 0rem 0.25rem;
+    font-size: 1.5rem;
+    color: #fe9e0d;
+  }
+  .testimonial-section-bottom h2 {
+    margin-top: 1.5rem;
+  }
+
+  .contact-page-wrapper h1 {
+    max-width: 900px !important;
+  }
+  .contact-page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6rem 0rem;
+  }
+  .contact-form-container {
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5rem;
+  }
+  .contact-form-container input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
   }

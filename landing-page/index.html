@@ -13,44 +13,120 @@
     <link rel="stylesheet" href="utils.css">
 </head>
 <body>
-    <div class="container  mx-auto">
+    <div class="container mx-auto">
         <header>
             <nav class="flex justify-between">
-                <div class="logo flex items-center font-bold">HANGRY</div>
+                <div class="logo-name flex items-center font-bold"><img class="logo" src="assets/logo.png" alt="">HANGRY</div>
                 <ul class="navbar flex items-center">
                     <li>Home</li>
                     <li>About</li>
-                    <li>Servies</li>
                     <li>Testimonials</li>
                     <li>Contact Us</li>
-                    <li><button class="btn">Book Now</button></li>
+                    <li><button class="primary-button">Book Now</button></li>
                 </ul>
             </nav>
         </header>
         <main class="min-h-screen">
-            <section class="section1">
+            <section class="home-section">
                 <div class="flex items-center">
                     <div class="top-left flex flex-col justify-center px-2">
                         <h1 class="my-1 primary-heading">The Ultimate Destination For Everything Food</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eligendi magnam consectetur earum laudantium doloribus ullam. Similique corrupti at laboriosam, a temporibus molestiae natus inventore.</p>
+                        <p class="my-1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eligendi magnam consectetur earum laudantium doloribus ullam. Similique corrupti at laboriosam, a temporibus molestiae natus inventore.
+                        </p>
+                        <div class="sec-btn">
+                            <button class="secondary-button">
+                                Order Now
+                            </button>
+                        </div>
                     </div>
+                
                     <div class="top-right flex justify-center">
                         <img class="home-image" src="assets/about-background-image.png" alt="">
                     </div>
                 </div>
             </section>
             
-            <section></section>
+            <section class="about-section">
+                <div class="about-section-container">
+                    <div class="about-section-image-container">
+                      <img class="about-image" src="assets/foodBowl.png" alt="" />
+                    </div>
+                    <div class="about-section-text-container">
+                      <p class="primary-subheading">About</p>
+                      <h1 class="primary-heading">
+                        Food Is An Important Part Of A Balanced Diet
+                      </h1>
+                      <p class="primary-text">
+                        Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+                        elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+                      </p>
+                      <p class="primary-text">
+                        Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
+                        facilisis at fringilla quam.
+                      </p>
+                      <div class="about-buttons-container">
+                        <button class="secondary-button">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
+            </section>
             
-            <section></section>
-            
-            <section></section>
-            
-            <section></section>
-            
+            <section class="testimonial-section">
+                <div class="work-section-wrapper">
+                    <div class="work-section-top">
+                      <p class="primary-subheading">Testimonial</p>
+                      <h1 class="primary-heading">What They Are Saying</h1>
+                      <p class="primary-text">
+                        Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+                        elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+                      </p>
+                    </div>
+                    <div class="testimonial-section-bottom">
+                      <img src="assets/john-doe-image.png" alt="" />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+                        elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+                      </p>
+                      <div class="testimonials-stars-container">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                            <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                          </svg>
+                      </div>
+                      <h2>John Doe</h2>
+                    </div>
+                  </div>
+            </section>
+
+            <section class="contact-us-section">
+                <div class="contact-page-wrapper">
+                    <h1 class="primary-heading">Have Question In Mind?</h1>
+                    <h1 class="secondary-heading">Let Us Help You</h1>
+                    <div class="contact-form-container">
+                      <input type="text" placeholder="yourmail@gmail.com"/>
+                      <button class="secondary-button">Submit</button>
+                    </div>
+                  </div>
+            </section>
         </main>
-        <footer>I am the footer</footer>
+        <footer>
+            <div class="flex items-center justify-center">
+                ©️Hangry Corporations Limited, 2023.  All Rights Reserved.
+            </div>
+        </footer>
     </div>
-    
 </body>
 </html>

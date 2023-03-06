@@ -36,8 +36,14 @@
 }
 
 .logo{
-    font-size: 1.5rem;
-    color: #FF3800;
+    height: 80px;
+    width: 80px;
+
+}
+
+.logo-name{
+    color:#FF3800;
+    font-size: 1.3rem;
 }
 
 .my-1{
@@ -55,7 +61,7 @@
     padding-right: 13px;
 }
 
-.btn{
+/*.btn{
     font-family: 'Arimo', sans-serif;
     font-family: 'Reem Kufi', sans-serif;
     padding: 7px 12px;
@@ -64,5 +70,5 @@
     cursor: pointer;
     color: black;
     background-color: #FF3800;
-}
+}*/
 
