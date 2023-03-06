@@ -39,11 +39,6 @@ body {
     padding: 12px 0;
 }
 
-
-.section1{
-    
-}
-
 .home-image{
     height: 500px;
     width: 500px;
@@ -181,7 +176,7 @@ body {
   }
 
   .primary-text {
-    text-align: center;
+ 
     max-width: 80%;
   }
 
