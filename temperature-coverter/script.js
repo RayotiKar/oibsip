@@ -1,3 +1,6 @@
+
+
+
 const calculateTemp = () => {
     const numberTemp = document.getElementById('temp').value;
     const unitAvail = document.getElementById('temp_diff');
@@ -14,10 +17,10 @@ const calculateTemp = () => {
     }
 
     if (unitSelected == 'cel') {
-        document.getElementById("result").innerHTML = celToFah(numberTemp) + "&#176; Fahrenheit";
+        document.getElementById("result").innerHTML = celToFah(numberTemp) + "&#176;F";
     }
     else {
-        document.getElementById("result").innerHTML = fahToCel(numberTemp) + "&#176; Celsius";
+        document.getElementById("result").innerHTML = fahToCel(numberTemp) + "&#176;C";
     }
     /*let result;
     if(valueTemp == 'cel')
