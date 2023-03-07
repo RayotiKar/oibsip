@@ -7,12 +7,12 @@ const calculateTemp = () => {
     const unitSelected = temp_diff.options[unitAvail.selectedIndex].value;
     
     const celToFah = (cel) => {
-        let fahv = ((cel * 9 / 5) + 32).toFixed(2);
+        let fahv = ((cel * 9 / 5) + 32).toFixed(1);
         return fahv;
     }
 
     const fahToCel = (fah) => {
-        let celv = ((fah - 32) * 5 / 9).toFixed(2);
+        let celv = ((fah - 32) * 5 / 9).toFixed(1);
         return celv;
     }
 
